@@ -32,7 +32,10 @@
   MathJax.Hub.Config({
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/SVG"],
-
+    renderActions: {
+      addMenu: [],
+      checkLoading: []
+    },
     "HTML-CSS": {
       minScaleAdjust: 50,
       scale: 90,
@@ -40,8 +43,8 @@
       preferredFont: "TeX",
       mtextFontInherit: false,
       matchFontHeight: true,
-    },
 
+  },
     tex2jax: {
       inlineMath: [['$','$']]
     }
