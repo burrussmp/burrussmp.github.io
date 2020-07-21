@@ -1,3 +1,17 @@
+# Developer Notes
+## How to update resume
+1. Create the pdf
+2. Upload to google drive
+3. In resume.html (in include) change the id of the url to point to the id of the file
+## How to make a new page
+1. Create a folder '_newpage'
+2. Update navigate.xml
+3. update config.xml with collection and the new page
+4. update _docs_/_pages to include the base new page
+5. Place new elements in the '_newpage' folder and specify the types as the 'newpage'
+## How to upload a new article to blog
+1. Place a new '*.md' in the '_blog' folder and name it type 'blog'
+
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
