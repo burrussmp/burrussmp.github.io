@@ -4,14 +4,14 @@
 
 /* Colors */
 $background-color: #f3f3f3 !default;
-$text-color: #4d4c4c !default;
-$muted-text-color: #8e8b82 !default;
-$primary-color: #222121 !default;
-$border-color: #e7c481 !default;
-$footer-background-color: #cfcbcb !default;
+$text-color: #333232 !default;
+$muted-text-color: #6b5924 !default;
+$primary-color: #a7a7a7 !default;
+$border-color: #c29541 !default;
+$footer-background-color: #e0e0e0 !default;
 $link-color: #017d8d !default;
-$masthead-link-color: $text-color !default;
-$masthead-link-color-hover: $text-color !default;
+$masthead-link-color:  #333232 !default;
+$masthead-link-color-hover: mix(#fff, $text-color, 45%) !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
 /* dirt syntax highlighting (base16) */

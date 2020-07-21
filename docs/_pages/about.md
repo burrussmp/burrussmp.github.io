@@ -2,7 +2,7 @@
 title: ""
 type: pages
 layout: single
-author_profile: true
+author_profile: false
 permalink: /about/
 ---
 # About
@@ -17,4 +17,4 @@ I am currently working remotely as a software engineer at Microsoft.
 
 To contact, please email [burrussmatthew@gmail.com](burrussmatthew@gmail.com).
 
-<sub><sup>Last Updated: July 2020</sup></sub>
+<sup>Last Updated: July 2020</sup>
