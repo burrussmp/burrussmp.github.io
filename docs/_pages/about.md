@@ -15,6 +15,6 @@ I graduated from Vanderbilt University with a BSc in computer engineering and a 
 I am currently working remotely as a software engineer at Microsoft.
 
 
-To contact, please email [burrussmatthew@gmail.com](burrussmatthew@gmail.com).
+To contact, please email [burrussmatthew@gmail.com](mailto:burrussmatthew@gmail.com).
 
 <sup>Last Updated: July 2020</sup>

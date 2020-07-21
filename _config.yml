@@ -71,6 +71,9 @@ collections:
   blog:
     output: true
     permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   # _pages
@@ -95,6 +98,17 @@ defaults:
       comments: true
       share: true
       related: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: true
+      related: false
 
 
 

@@ -5,7 +5,10 @@ main:
     url: /blog/
 
   - title: "Publications"
-    url: /404/
+    url: /publications/
+
+  - title: "Resume/CV"
+    url: /resume/
 
   - title: "About"
     url: /about/
