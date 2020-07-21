@@ -1,9 +1,9 @@
 ---
 type: pages
 layout: archive
-author_profile: false
+author_profile: true
 permalink: /blog/
-title: Articles
+title: Blog
 ---
 
 <div class="grid__wrapper">
