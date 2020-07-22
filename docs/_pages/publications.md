@@ -6,8 +6,8 @@ permalink: /publications/
 title: Publications
 tagline: "It ain't much but it's honest work"
 header:
-  overlay_image: /assets/images/home-header-1.jpg
-  caption: Copyright © Matthew Burruss
+  overlay_image: /assets/images/among_sierra_nevada.jpg
+  caption: Copyright © Albert Bierdstadt
 ---
 
 {% assign publications = site.publications | sort: 'date' | reverse  %}

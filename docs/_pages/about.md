@@ -7,7 +7,7 @@ permalink: /about/
 title: About
 tagline: "The blog and the author"
 header:
-  overlay_image: /assets/images/wanderer.png
+  overlay_image: /assets/images/friedrich_monk_by_sea.jpg
   caption: Copyright © David Friedrich
 ---
 ## About the Blog
