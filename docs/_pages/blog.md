@@ -4,7 +4,7 @@ layout: archive
 author_profile: false
 permalink: /blog/
 title: Blog Posts
-tagline: Topics in machine learning, artificial intelligence, data visualizations, and general tech trends.
+tagline: Topics in machine learning, artificial intelligence, data visualizations, and general tech trends
 header:
   overlay_image: /assets/images/nighthawks.png
   caption: Copyright © Edward Hopper
