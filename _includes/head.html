@@ -7,17 +7,6 @@
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Assign the meta properties for link sharing -->
-{% if page.feature-img %}
-  {% capture feature_image %}{{ page.feature-img }}{% endcapture %}
-{% else %}
-  {% assign feature_image = site.teaser %}
-{% endif %}
-<meta property="og:image" content="{{ feature_image | relative_url }}" />
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
-
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
