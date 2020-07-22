@@ -7,6 +7,19 @@
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!-- Assign the meta properties for link sharing -->
+{% if page.feature-img %}
+  {% capture feature_image %}{{ page.feature-img }}{% endcapture %}
+{% else %}
+  {% assign feature_image = site.teaser %}
+{% endif %}
+<meta property="og:image" content="{{ feature_image | relative_url }}" />
+{% if page.feature-description %}
+  {% capture meta_description %}{{ page.feature-description }}{% endcapture %}
+{% else %}
+  {% assign meta_description = site.description %}
+{% endif %}
+<meta property="og:description" content="{{ meta_description }}" />
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
