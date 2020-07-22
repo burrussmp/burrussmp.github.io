@@ -6,6 +6,7 @@ permalink: /blog/
 title: Blog Posts
 tagline: Topics in machine learning, artificial intelligence, data visualizations, and general tech trends
 header:
+  og_image: /assets/image/website_feature_image.png
   overlay_image: /assets/images/nighthawks.png
   caption: Copyright © Edward Hopper
 ---
