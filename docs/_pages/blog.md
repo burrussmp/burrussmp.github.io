@@ -1,13 +1,17 @@
 ---
 type: pages
 layout: archive
-author_profile: true
+author_profile: false
 permalink: /blog/
-title: Blog
+title: Blog Posts
+tagline: Topics in machine learning, artificial intelligence, data visualizations, and general tech trends.
+header:
+  overlay_image: /assets/images/nighthawks.png
+  caption: Copyright © Edward Hopper
 ---
-
+{% assign blogs = site.blog | sort: 'date' | reverse  %}
 <div class="grid__wrapper">
-  {% for post in site.blog %}
+  {% for post in blogs %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>

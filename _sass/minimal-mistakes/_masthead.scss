@@ -42,6 +42,36 @@
 .site-logo img {
   max-height: 2rem;
 }
+.home-icon {
+  max-width: 30px;
+  max-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+  align-self: center;
+
+  &:hover {
+    opacity:0.5;
+  }
+
+  @include breakpoint($small) {
+    max-width: 30px;
+    max-height: 30px;
+  }
+
+  @include breakpoint($medium) {
+    max-width: 35px;
+    max-height: 35px;
+  }
+
+  @include breakpoint($large) {
+    max-width: 40px;
+    max-height: 40px;
+  }
+  // z-index: 20;
+}
+
 
 .site-title {
   display: -webkit-box;
