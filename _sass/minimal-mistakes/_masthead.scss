@@ -1,6 +1,6 @@
 /* ==========================================================================
-   MASTHEAD
-   ========================================================================== */
+  MASTHEAD
+  ========================================================================== */
 
 .masthead {
   position: relative;
@@ -13,7 +13,7 @@
 
   &__inner-wrap {
     @include clearfix;
-    margin-left: auto;
+    margin-left: 2em;
     margin-right: auto;
     padding: 1em;
     max-width: 100%;
@@ -42,9 +42,10 @@
 .site-logo img {
   max-height: 2rem;
 }
+
 .home-icon {
-  max-width: 30px;
-  max-height: 30px;
+  width: 24px !important;
+  height: 24px !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,23 +53,25 @@
   align-self: center;
 
   &:hover {
-    opacity:0.5;
+    opacity: 0.5;
   }
 
   @include breakpoint($small) {
-    max-width: 30px;
-    max-height: 30px;
+    width: 16px !important;
+    height: 16px !important;
+    ;
   }
 
   @include breakpoint($medium) {
-    max-width: 35px;
-    max-height: 35px;
+    width: 24px !important;
+    height: 24px !important;
   }
 
   @include breakpoint($large) {
-    max-width: 40px;
-    max-height: 40px;
+    width: 32px !important;
+    height: 32px !important;
   }
+
   // z-index: 20;
 }
 
