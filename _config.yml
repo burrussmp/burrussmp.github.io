@@ -87,6 +87,7 @@ defaults:
       comments: false
       share: false
       related: false
+      search: false
   # _posts
   - scope:
       path: ""
