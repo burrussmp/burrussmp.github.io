@@ -9,12 +9,11 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
-
 <div class="{{ include.type | default: "list" }}__item">
   {% if include.type != "grid" and teaser %}
-    <div style="overflow: hidden; height:auto;max-width: 120px; float:left; max-height:130px; margin-right:10px;">
-      <img src="{{ teaser | relative_url }}" alt="">
-    </div>
+      <div style="overflow:hidden;max-height:8em;max-width:12em;float:left;margin-right:1em;margin-top: 0.5em;">
+       <img src="{{ teaser | relative_url }}" alt="">
+      </div>
   {% endif %}
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
@@ -38,7 +37,7 @@
       {% endif %}	
       {% if post.read_time %}<i class="fa fa-clock" aria-hidden="true"></i>&nbsp;{% include read-time.html %}{% endif %}	
     </p>	
-    
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
+  
 </div>

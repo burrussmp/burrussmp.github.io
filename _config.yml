@@ -51,14 +51,14 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true # true, false (default)
+search_full_content      : algolia # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  application_id         : HMBUEX5QEF # YOUR_APPLICATION_ID
+  index_name             : tech_blog # YOUR_INDEX_NAME
+  search_only_api_key    : aeab1dcce26ae2c4d393fda026a55361 # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : true # true (default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
@@ -233,7 +233,7 @@ incremental: false
 kramdown:
   input: GFM
   hard_wrap: false
-  auto_ids: false
+  auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6

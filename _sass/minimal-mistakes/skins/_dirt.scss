@@ -13,7 +13,8 @@ $link-color: #017d8d !default;
 $masthead-link-color:  #333232 !default;
 $masthead-link-color-hover: mix(#fff, $text-color, 45%) !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
-
+$box-shadow-color: rgba(rgb(153, 151, 151), 0.35);
+$box-shadow-color-emphasis: rgba(rgb(128, 128, 128), 0.35);
 /* dirt syntax highlighting (base16) */
 $base00: #231e18 !default;
 $base01: #302b25 !default;
@@ -31,3 +32,14 @@ $base0c: #6eb958 !default;
 $base0d: #88a4d3 !default;
 $base0e: #bb90e2 !default;
 $base0f: #b49368 !default;
+
+// Colors for buttons
+$button-color-1: $base08;
+$button-color-2: $base09;
+$button-color-3: $base0a;
+$button-color-4: $base0b;
+$button-color-5: $base0c;
+$button-color-6: $base0d;
+$button-color-7: $base0e;
+$button-color-8: $base0f;
+$button-hover: $base05;
