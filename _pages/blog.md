@@ -11,7 +11,7 @@ header:
 ---
 
 <div class="grid__wrapper">
-  <h3 class="archive__subtitle">Find By Category</h3>
+  <h3 class="archive__subtitle">Find by Category</h3>
   <a class= "category-button c" href="/categories/datavis">Data Visualizations</a>
   <a class= "category-button d" href="/categories/ml">Machine Learning</a>
   <a class= "category-button f" href="/categories/stats">Statistics</a>
