@@ -10,7 +10,7 @@ author_profile: true
 {% if paginator %}
   {% assign posts = paginator.posts %}
 {% else %}
-  {% assign posts = site.blog %}
+  {% assign posts = site.posts %}
 {% endif %}
 
 {% assign posts = posts | sort: 'date' | reverse %}

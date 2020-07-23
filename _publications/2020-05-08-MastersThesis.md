@@ -1,6 +1,6 @@
 ---
-type: publications
-layout: default
+type: publication
+layout: single
 author_profile: false
 related: false
 date: 2020-05-08

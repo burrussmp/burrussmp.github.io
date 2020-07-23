@@ -1,0 +1,7 @@
+{% assign publications = site.publications | sort: 'date' | reverse  %}
+<div>
+{% for post in publications %}
+  {% include archive-single.html %}
+  <hr/>
+{% endfor %}
+</div>

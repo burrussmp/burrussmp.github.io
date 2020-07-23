@@ -1,4 +1,4 @@
-{% assign blogs = site.blog | sort: 'date' | reverse  %}
+{% assign blogs = site.posts | sort: 'date' | reverse  %}
 <div class="grid__wrapper">
   <h3 class="archive__subtitle">Posts</h3>
   {% for post in blogs %}
