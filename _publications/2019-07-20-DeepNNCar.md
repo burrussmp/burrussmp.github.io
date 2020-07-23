@@ -1,8 +1,4 @@
 ---
-type: publication
-layout: single
-author_profile: false
-related: false
 date: 2019-05-01
 title: "DeepNNCar: A Testbed for Deploying and Testing Middleware Frameworks for Autonomous Robots"
 header:

@@ -1,7 +1,6 @@
 ---
-type: blog
-layout: archive
 date: 2020-05-05
+last_modified_at: 
 title: "Part 3: Sketch3D: Training a Deep Neural Network to Perform 2D Annotation Segmentation"
 header:
   teaser: "/assets/images/sketch3d-part-3-teaser.png"

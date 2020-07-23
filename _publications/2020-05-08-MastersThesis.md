@@ -1,8 +1,4 @@
 ---
-type: publication
-layout: single
-author_profile: false
-related: false
 date: 2020-05-08
 title: "Enhancing the Robustness of Deep Neural Networks Against Security Threats Using Radial Basis Functions"
 header:

@@ -23,14 +23,14 @@ name                     : "Matthew Burruss"
 description              : "A Tech Blog by Matthew Burruss"
 url                      : "https://matthewpburruss.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "burrussmp/burrussmp.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/website_feature_image.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -87,10 +87,10 @@ defaults:
       comments: false
       share: false
       related: false
-  # _blog
+  # _posts
   - scope:
       path: ""
-      type: blog
+      type: posts
     values:
       layout: single
       author_profile: false
@@ -98,6 +98,11 @@ defaults:
       comments: true
       share: true
       related: true
+      toc: false
+      toc_icon: "heart"
+      toc_sticky: true
+      classes: wide
+
   # _publications
   - scope:
       path: ""
@@ -107,7 +112,7 @@ defaults:
       author_profile: false
       read_time: false
       comments: false
-      share: true
+      share: false
       related: false
 
 

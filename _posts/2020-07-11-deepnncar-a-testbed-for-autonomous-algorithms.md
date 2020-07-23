@@ -1,7 +1,6 @@
 ---
-type: blog
-layout: archive
 date: 2020-03-30
+last_modified_at: 
 title: "DeepNNCar: A Testbed for Autonomous Algorithms"
 header:
   teaser: "/assets/images/DeepNNCar.png"

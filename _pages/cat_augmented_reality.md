@@ -1,12 +1,10 @@
 ---
 type: category
-
 layout: archive
 author_profile: true
-permalink: /categories/ar
+permalink: /categories/augmented-reality
 taxonomy: Augmented Reality
-title: Category
-tagline: Blogs on Augmented Reality
+title: "Category: Augmented Reality"
 header:
   og_image: /assets/images/website_feature_image.png
   overlay_image: /assets/images/nighthawks.png

@@ -1,7 +1,6 @@
 ---
-type: blog
-layout: default
 date: 2020-04-26
+last_modified_at: 
 title: "Part 2. Sketch3D: Creating 3D Objects from Sketches"
 header:
   teaser: "/assets/images/sketch3d-part-2-teaser.png"

@@ -1,7 +1,6 @@
 ---
-type: blog
-layout: archive
 date: 2020-05-11
+last_modified_at: 
 title: "Detecting Weird Data: Conformal Anomaly Detection"
 header:
   teaser: "https://miro.medium.com/max/770/1*k0e3p3FrN0PghnAVzxTQIw.png"

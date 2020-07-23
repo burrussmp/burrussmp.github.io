@@ -1,7 +1,6 @@
 ---
-type: blog
-layout: archive
 date: 2020-04-01
+last_modified_at: 
 title: "Part 1. Sketch3D: Getting Started"
 header:
   teaser: "/assets/images/sketch3d-1-getting-started-teaser.png"

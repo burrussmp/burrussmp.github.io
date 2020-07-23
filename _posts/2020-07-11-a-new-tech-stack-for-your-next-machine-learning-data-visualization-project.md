@@ -1,7 +1,6 @@
 ---
-type: blog
-layout: archive
 date: 2020-07-11
+last_modified_at: 
 title: "A New Tech Stack for Your Next Machine Learning Data Visualization Project"
 header:
   teaser: "https://miro.medium.com/max/543/1*717_cKQruiZjz_n0Mr8ZFQ.gif"

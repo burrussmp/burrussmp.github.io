@@ -1,7 +1,6 @@
 ---
-type: blog
-layout: archive
 date: 2020-05-20
+last_modified_at: 
 title: "Simplicity to Complexity: A Possible Path to Artificial General Intelligence"
 header:
   teaser: "https://miro.medium.com/max/770/1*g1J5LzPgK-P1ZxgC-1uR-Q.jpeg"

@@ -2,7 +2,7 @@
 type: category
 layout: archive
 author_profile: true
-permalink: /categories/stats
+permalink: /categories/statistics
 taxonomy: Statistics
 title: Blogs on Statistics and Mathematics
 header:

@@ -1,8 +1,4 @@
 ---
-type: publication
-layout: single
-author_profile: false
-related: false
 date: 2019-04-01
 title: "Augmenting Learning Components for Safety in Resource Constrained Autonomous Robots"
 header:
