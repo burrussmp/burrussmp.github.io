@@ -18,7 +18,7 @@ header:
   <a class= "category-button g" href="/categories/computer-vision">Computer Vision</a>
   <a class= "category-button h" href="/categories/artificial-intelligence">Artificial Intelligence</a>
   <a class= "category-button b" href="/categories/augmented-reality">Augmented Reality</a>
-  <a class= "category-button a" href="/categories/opinions">Opinions</a>
+  <a class= "category-button a" href="/categories/opinions">Opinion</a>
   <a class= "category-button d" href="/categories/other">Other</a>
 </div>
 
