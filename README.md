@@ -31,3 +31,4 @@
 | Data Visualization      |  /categories/datavis |
 | Opinion                 | /categories/opinions |
 | Other                   | /categories/other |
+

@@ -103,6 +103,9 @@ defaults:
       toc_icon: "heart"
       toc_sticky: true
       classes: wide
+      header:
+        overlay_image: "/assets/images/blog_header_image.png"
+        show_overlay_excerpt: false
 
   # _publications
   - scope:
