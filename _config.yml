@@ -52,8 +52,8 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
-search_full_content      : algolia # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search_full_content      : false # true, false (default)
+search_provider          : lunr # lunr (default), algolia, google
 algolia:
   application_id         : HMBUEX5QEF # YOUR_APPLICATION_ID
   index_name             : tech_blog # YOUR_INDEX_NAME
@@ -253,7 +253,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /post/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
