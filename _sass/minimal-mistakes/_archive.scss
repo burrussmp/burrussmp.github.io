@@ -53,21 +53,20 @@
 }
 
 .list__item {
+  // background-color: $item-color;
+  // border: 2px ridge #231e18;
   padding:1em;
   margin: 1em;
   padding-top: 0em;
-  box-shadow: 0 0 20px $box-shadow-color;
+  box-shadow: 1px 1px 20px rgba(40,0,0,0.25);;
 }
 
 @media(hover: hover) and (pointer: fine) {
 
   .grid__item:hover {
-    box-shadow: 2px 2px 30px $box-shadow-color-emphasis;
+    box-shadow: 2px 2px 30px rgba(40,0,0,0.25);;
   }
 
-  .list__item:hover {
-    box-shadow: 2px 2px 30px $box-shadow-color-emphasis;
-  }
 }
 
 .archive__item-title {
@@ -157,7 +156,7 @@
     font-size: 0.6em;
   }
   div {
-    border: 1px solid black;
+    border: 1px outset rgb(109, 109, 109);
   }
 }
 
@@ -488,11 +487,11 @@
 }
 
 .list__item .archive__item-title {
-  font-size: $type-size-5;
+  font-size: 0.95em;
 }
 
 .grid__item .archive__item-title {
-  font-size: 1.05em;
+  font-size: 0.95em;
 }
 
 .grid__item {

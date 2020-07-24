@@ -1,7 +1,7 @@
+<h3 class="archive__subtitle">Recent Publications</h3>
 {% assign publications = site.publications | sort: 'date' | reverse  %}
 <div>
 {% for post in publications %}
   {% include archive-single.html %}
-  <hr/>
 {% endfor %}
 </div>
