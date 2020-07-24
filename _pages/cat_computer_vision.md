@@ -11,3 +11,5 @@ header:
   caption: Copyright © Matthew Burruss
 search: true
 ---
+
+<p style="visibility:hidden">Blog posts in category "Computer Vision"</p>

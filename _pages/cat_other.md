@@ -11,3 +11,4 @@ header:
   caption: Copyright © Matthew Burruss
 search: true
 ---
+<p style="visibility:hidden">Blog posts in category "Other"</p>

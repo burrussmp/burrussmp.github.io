@@ -8,20 +8,20 @@ var idx = lunr(function () {
   this.field('categories')
   this.field('tags')
   this.ref('id')
-
+  this.field('description')
   this.pipeline.remove(lunr.trimmer)
 
   for (var item in store) {
     this.add({
       title: store[item].title,
       excerpt: store[item].excerpt,
+      description: store[item].description,
       categories: store[item].categories,
       tags: store[item].tags,
       id: item
     })
   }
 });
-
 $(document).ready(function() {
   $('input#search').on('keyup', function () {
     var resultdiv = $('#results');
@@ -34,7 +34,7 @@ $(document).ready(function() {
             q.term(term, {  usePipeline: false, wildcard: lunr.Query.wildcard.TRAILING, boost: 10 })
           }
           if (term != ""){
-            q.term(term, {  usePipeline: false, editDistance: 1, boost: 1 })
+            q.term(term, {  usePipeline: false, editDistance: 3, boost: 1 })
           }
         })
       });
@@ -52,7 +52,7 @@ $(document).ready(function() {
               '<div class="archive__item-teaser">'+
                 '<img src="'+store[ref].teaser+'" alt="">'+
               '</div>'+
-              '<p class="archive__item-excerpt" itemprop="description">'+store[ref].excerpt.split(" ").splice(0,20).join(" ")+'...</p>'+
+              '<p class="archive__item-excerpt" itemprop="description">'+store[ref].excerpt.split(" ").splice(0,20).join(" ")+'</p>'+
             '</article>'+
           '</div>';
       }
@@ -63,7 +63,7 @@ $(document).ready(function() {
               '<h2 class="archive__item-title" itemprop="headline">'+
                 '<a href="'+store[ref].url+'" rel="permalink">'+store[ref].title+'</a>'+
               '</h2>'+
-              '<p class="archive__item-excerpt" itemprop="description">'+store[ref].excerpt.split(" ").splice(0,20).join(" ")+'...</p>'+
+              '<p class="archive__item-excerpt" itemprop="description">'+store[ref].excerpt.split(" ").splice(0,20).join(" ")+'</p>'+
             '</article>'+
           '</div>';
       }
