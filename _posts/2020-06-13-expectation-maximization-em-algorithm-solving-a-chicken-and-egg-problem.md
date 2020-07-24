@@ -8,5 +8,5 @@ excerpt: "The Intuition Behind the Popular Expectation-Maximization Algorithm wi
 category:
   - Statistics
   - Machine Learning
-redirect_url: https://towardsdatascience.com/solving-a-chicken-and-egg-problem-expectation-maximization-em-c717547c3be2
+redirect_url: https://towardsdatascience.com/solving-a-chicken-and-egg-problem-expectation-maximization-em-c717547c3be2?source=friends_link&sk=dc0c9e8d8baa20cc56e026a856e57049
 ---

@@ -8,5 +8,5 @@ excerpt: "Opinion: An Argument for Cellular Automata-like Mechanisms in Approach
 category:
   - Artificial Intelligence
   - Opinion
-redirect_url : https://towardsdatascience.com/emergence-how-artificial-general-intelligence-can-be-computationally-modeled-b5fea4797028
+redirect_url : https://towardsdatascience.com/emergence-how-artificial-general-intelligence-can-be-computationally-modeled-b5fea4797028?source=friends_link&sk=aff13e34f91cfdbcd5c11cd68bfdbc0c
 ---

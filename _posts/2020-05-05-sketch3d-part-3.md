@@ -8,5 +8,5 @@ excerpt: "Sketch3D: An AR android application to turn 2D sketches into 3D virtua
 category:
   - Computer Vision
   - Machine Learning
-redirect_url: https://medium.com/swlh/part-3-sketch3d-training-a-2d-u-net-neural-network-in-pytorch-to-perform-annotation-segmentation-a789d00b8842
+redirect_url: https://medium.com/swlh/part-3-sketch3d-training-a-2d-u-net-neural-network-in-pytorch-to-perform-annotation-segmentation-a789d00b8842?source=friends_link&sk=f0eedb3c8225aa5521e71eed9e12a838
 ---

@@ -8,5 +8,5 @@ excerpt: "Weird data is important. Often in data science, the goal is to discove
 category:
   - Machine Learning
   - Statistics
-redirect_url: https://towardsdatascience.com/detecting-weird-data-conformal-anomaly-detection-20afb36c7bcd
+redirect_url: https://towardsdatascience.com/detecting-weird-data-conformal-anomaly-detection-20afb36c7bcd?source=friends_link&sk=abd865a77521558b3ad1b9870b1cdb3d
 ---

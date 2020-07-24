@@ -1,4 +1,4 @@
----
+<!-- ---
 date: 2020-07-22
 last_modified_at: 
 title: "An Example Title That Means Nothing and that is unreasonably long"
@@ -7,21 +7,20 @@ header:
   
 excerpt: "Test excerpt"
 category:
-  - Machine Learning
-  - Statistics
+  - Other
 toc: true
 
----
+--- -->
 
 <!-- <figure style="display: block;text-align: center;margin:0px;">
   <img style="width:20em;height:auto;" src="https://miro.medium.com/max/770/1*k0e3p3FrN0PghnAVzxTQIw.png"/>
   <figcaption >Fig 1. This is my caption</figcaption>
 </figure> -->
-
+<!-- 
 ## this is an example medium post
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ## This is a sub header
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras sed felis eget velit aliquet. Cras adipiscing enim eu turpis egestas pretium aenean pharetra magna. Nunc mattis enim ut tellus. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend. Ac turpis egestas maecenas pharetra convallis posuere morbi. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Duis tristique sollicitudin nibh sit amet. Elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Libero enim sed faucibus turpis in. Tortor consequat id porta nibh venenatis cras sed felis eget.
 
 ### Change something up
-Do the comments still appear?
+Do the comments still appear? -->
