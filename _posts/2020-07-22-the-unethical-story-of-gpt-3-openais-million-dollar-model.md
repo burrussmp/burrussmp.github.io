@@ -7,6 +7,7 @@ header:
   
 category:
   - Other
+  - Artificial Intelligence
 toc: false
 excerpt: "The religious, gender, and racial biases, environmental impacts, & other ethical considerations of the worlds most powerful AI model."
 ---
@@ -162,7 +163,7 @@ OpenAI has accomplished something these past several months that has potential, 
 
 While I applaud OpenAI for their discussion on the societal and broader impacts of GPT-3, I hope they will continue to take this issue seriously by pairing with other organizations to more deeply explore the biases and ethical considerations of the model, to continually re-evaluate not only what they haven't considered, but what they have considered, and to explore biases not touched in their original research such as sexual orientation, disability, ageism, etc. as well as other potential threats to personal privacy and general security.
 
-In the end, records will always present themselves as goals to surpass. At some point, someone will beat Kipchoge's record&mdash;maybe even Kipchoge himself&mdash;and we will likely be taken just as off guard as the first time. Similarly, the world will soon be staring in amazement at larger and more powerful models that consider GPT-3 a primitive predecessor.
+Human accomplishments and records will always present themselves as goals to surpass. At some point, someone will beat Kipchoge's record&mdash;maybe even Kipchoge himself&mdash;and we will likely be taken just as off guard as the first time. Similarly, the world will soon be staring in amazement at larger and more powerful models that consider GPT-3 a primitive predecessor.
 
 The question is: **will we be ready?**
 
