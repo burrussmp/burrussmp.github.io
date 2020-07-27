@@ -1,5 +1,5 @@
 ---
-date: 2020-07-22
+date: 2020-07-27
 title: "The (Un)ethical Story of GPT-3: OpenAI's Million Dollar Model"
 tagline: "The religious, gender, and racial biases, environmental impacts, & other ethical considerations of the world's most powerful AI model."
 header:
