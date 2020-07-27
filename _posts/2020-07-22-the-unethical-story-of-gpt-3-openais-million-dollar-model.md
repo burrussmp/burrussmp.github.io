@@ -13,7 +13,7 @@ excerpt: "The most powerful AI today shows great promise, but presents some impo
 ---
 <figure style="display: block;text-align: center;margin:0px;">
   <figcaption>Source: Author</figcaption>
-  <img style="width:70%;height:auto;border:1px solid black;" src="/assets/resources_GTP_2/cover.png"/>
+  <img style="width:100%;height:auto;border:1px solid black;" src="/assets/resources_GTP_2/cover.png"/>
 </figure>
 Back on October 12, 2019, the world witnessed a previously unimaginable accomplishment&mdash;[the first sub-two-hour marathon was ran in an incredible time of 1:59:40](https://www.runnersworld.com/runners-stories/a29447630/eliud-kipchoge-fastest-marathon-ever/) by Kenyan native Eliud Kipchoge. He would later say in regards to the amazing achievement that he *"expected more people all over the world to run under 2 hours after today"* [1].
 
