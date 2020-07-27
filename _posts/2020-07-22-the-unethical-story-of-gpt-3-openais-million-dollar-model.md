@@ -8,7 +8,7 @@ header:
 category:
   - Other
 toc: false
-teaser: "The bias (religious, gender, and race), environmental impacts, and other ethical considerations of the worlds most powerful AI model to-date."
+excerpt: "The bias (religious, gender, and race), environmental impacts, and other ethical considerations of the worlds most powerful AI model to-date."
 ---
 <figure style="display: block;text-align: center;margin:0px;">
   <figcaption>Source: Author</figcaption>
