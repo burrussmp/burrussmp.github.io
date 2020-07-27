@@ -1,7 +1,7 @@
 ---
 date: 2020-07-22
 title: "The (Un)ethical Story of GPT-3: OpenAI's Million Dollar Model"
-tagline: "The most powerful AI today shows prejudice & bias that reflect a propensity of thought prevalent in the society from which it came."
+tagline: "The religious, gender, and racial biases, environmental impacts, & other ethical considerations of the worlds most powerful AI model."
 header:
   teaser: "/assets/resources_GTP_2/cover.png"
   
@@ -9,7 +9,7 @@ category:
   - Other
   - Artificial Intelligence
 toc: false
-excerpt: "The religious, gender, and racial biases, environmental impacts, & other ethical considerations of the worlds most powerful AI model."
+excerpt: "The most powerful AI today shows great promise, but presents some important ethical and moral considerations"
 ---
 <figure style="display: block;text-align: center;margin:0px;">
   <figcaption>Source: Author</figcaption>
