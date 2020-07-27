@@ -4,7 +4,7 @@ title: "The (Un)ethical Story of GPT-3: OpenAI's Million Dollar Model"
 tagline: "The religious, gender, and racial biases, environmental impacts, & other ethical considerations of the world's most powerful AI model."
 header:
   teaser: "/assets/resources_GTP_2/cover.png"
-  
+feature_image: "/assets/resources_GTP_2/cover.png"
 category:
   - Other
   - Artificial Intelligence
