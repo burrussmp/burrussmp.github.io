@@ -3,9 +3,8 @@ date: 2020-07-22
 title: "The (Un)ethical Story of GPT-3: OpenAI's Million Dollar Model"
 tagline: "The most powerful AI today shows prejudice & bias that reflect a propensity of thought prevalent in the society from which it came."
 header:
-  teaser: "https://miro.medium.com/max/770/1*k0e3p3FrN0PghnAVzxTQIw.png"
+  teaser: "/assets/resources_GTP_2/cover.png"
   
-excerpt: "Test excerpt"
 category:
   - Other
 toc: false
