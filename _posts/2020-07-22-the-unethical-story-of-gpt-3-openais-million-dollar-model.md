@@ -203,7 +203,7 @@ $$
 such that a negative metric indicates bias towards male association, a positive metric indicates a bias towards female association, and zero indicates no bias or in other words, the model has on average an equal probability of associating occupation with either male or female gendered words.
 
 <!-- 
-<style type="text/css">
+<!-- <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
@@ -238,9 +238,9 @@ such that a negative metric indicates bias towards male association, a positive 
     <td class="tg-bjfb">0.10</td>
     <td class="tg-bjfb">0.11</td>
     <td class="tg-bjfb">-2.20</td>
-    <td class="tg-ikn9">Neutral<br>Prompt</td>
-    <td class="tg-ikn9">Incompetent<br>Prompt</td>
-    <td class="tg-ikn9">Competent<br>Prompt</td>
+    <td class="tg-bjfb">Neutral<br>Prompt</td>
+    <td class="tg-bjfb">Incompetent<br>Prompt</td>
+    <td class="tg-bjfb">Competent<br>Prompt</td>
   </tr>
   <tr>
     <td class="tg-bjfb">0.20</td>
@@ -254,7 +254,7 @@ such that a negative metric indicates bias towards male association, a positive 
     <td class="tg-bjfb">0.30</td>
     <td class="tg-bjfb">0.43</td>
     <td class="tg-bjfb">-0.85</td>
-    <td class="tg-zefm" colspan="3" rowspan="7"><span style="font-weight:bold">Note: </span><span style="font-weight:normal">A negative log odds indicates</span><br><span style="font-weight:normal">bias towards associating the prompt</span><br><span style="font-weight:normal">with male genders, a positive log odds</span><br><span style="font-weight:normal">indicates bias towards associating the</span><br><span style="font-weight:normal">prompt with female genders, and a zero</span><br><span style="font-weight:normal">log odds indicates no bias in particular.</span><br><br><span style="font-weight:bold">Note: </span><span style="font-weight:normal">The left two columns provide</span><br><span style="font-weight:normal">perspective of how the log odds scale</span><br><span style="font-weight:normal">with the raw probability. For example,</span><br><span style="font-weight:normal">the probability of associating a given</span><br><span style="font-weight:normal">prompt with a male 90% of the time</span><br><span style="font-weight:normal">will result in a log odds of -2.20.</span></td>
+    <td class="tg-bjfb" colspan="3" rowspan="7"><span style="font-weight:bold">Note: </span><span style="font-weight:normal">A negative log odds indicates</span><br><span style="font-weight:normal">bias towards associating the prompt</span><br><span style="font-weight:normal">with male genders, a positive log odds</span><br><span style="font-weight:normal">indicates bias towards associating the</span><br><span style="font-weight:normal">prompt with female genders, and a zero</span><br><span style="font-weight:normal">log odds indicates no bias in particular.</span><br><br><span style="font-weight:bold">Note: </span><span style="font-weight:normal">The left two columns provide</span><br><span style="font-weight:normal">perspective of how the log odds scale</span><br><span style="font-weight:normal">with the raw probability. For example,</span><br><span style="font-weight:normal">the probability of associating a given</span><br><span style="font-weight:normal">prompt with a male 90% of the time</span><br><span style="font-weight:normal">will result in a log odds of -2.20.</span></td>
   </tr>
   <tr>
     <td class="tg-bjfb">0.40</td>
@@ -362,32 +362,32 @@ such that a negative metric indicates bias towards male association, a positive 
 </thead>
 <tbody>
   <tr>
-    <td class="tg-pjpm">Common Crawl</td>
-    <td class="tg-pjpm">410 billion</td>
+    <td class="tg-baqh">Common Crawl</td>
+    <td class="tg-baqh">410 billion</td>
     <td class="tg-baqh">60%</td>
     <td class="tg-baqh">0.44</td>
   </tr>
   <tr>
-    <td class="tg-pjpm">WebText2</td>
-    <td class="tg-pjpm">19 billion</td>
+    <td class="tg-baqh">WebText2</td>
+    <td class="tg-baqh">19 billion</td>
     <td class="tg-baqh">22%</td>
     <td class="tg-baqh">2.9</td>
   </tr>
   <tr>
-    <td class="tg-bjfb">Books1</td>
-    <td class="tg-bjfb">12 billion</td>
+    <td class="tg-baqh">Books1</td>
+    <td class="tg-baqh">12 billion</td>
     <td class="tg-baqh">8%</td>
     <td class="tg-baqh">1.9</td>
   </tr>
   <tr>
     <td class="tg-bjfb">Books2</td>
-    <td class="tg-bjfb">55 billion</td>
+    <td class="tg-baqh">55 billion</td>
     <td class="tg-baqh">8%</td>
     <td class="tg-baqh">0.43</td>
   </tr>
   <tr>
-    <td class="tg-bjfb">Wikipedia</td>
-    <td class="tg-bjfb">3 billion</td>
+    <td class="tg-baqh">Wikipedia</td>
+    <td class="tg-baqh">3 billion</td>
     <td class="tg-baqh">3%</td>
     <td class="tg-baqh">3.4</td>
   </tr>
@@ -395,8 +395,8 @@ such that a negative metric indicates bias towards male association, a positive 
 </table>
 </tbody>
 </table>
-</div> -->
-<!-- 
+</div>
+
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -485,19 +485,19 @@ such that a negative metric indicates bias towards male association, a positive 
   <tr>
     <td class="tg-hsm8">Personable (22)</td>
     <td class="tg-uupj">Beautiful (158)</td>
-    <td class="tg-ikn9">Female</td>
-    <td class="tg-ikn9">Male</td>
+    <td class="tg-bjfb">Female</td>
+    <td class="tg-bjfb">Male</td>
   </tr>
   <tr>
     <td class="tg-bjfb">Large (16)</td>
     <td class="tg-erug">Gorgeous (28)</td>
-    <td class="tg-zefm">23.9</td>
-    <td class="tg-zefm">17.5</td>
+    <td class="tg-bjfb">23.9</td>
+    <td class="tg-bjfb">17.5</td>
   </tr>
   <tr>
     <td class="tg-bjfb">Mostly (15)</td>
     <td class="tg-bjfb">Naughty (12)</td>
-    <td class="tg-zefm" colspan="2" rowspan="8"><span style="font-weight:bold">Note: </span><span style="font-weight:normal">A co-occurrence of </span><br>800 indicates perfect<br>co-occurrence of the word<br>and the gender specific<br>words in the<br>passages (50 words).<br><br><span style="font-weight:bold">Note: </span>"Most Biased" means<br>indicated that the OpenAI<br>team noticed a heavy<br>skewness or co-occurrence<br>for one gender and not the<br>other.</td>
+    <td class="tg-bjfb" colspan="2" rowspan="8"><span style="font-weight:bold">Note: </span><span style="font-weight:normal">A co-occurrence of </span><br>800 indicates perfect<br>co-occurrence of the word<br>and the gender specific<br>words in the<br>passages (50 words).<br><br><span style="font-weight:bold">Note: </span>"Most Biased" means<br>indicated that the OpenAI<br>team noticed a heavy<br>skewness or co-occurrence<br>for one gender and not the<br>other.</td>
   </tr>
   <tr>
     <td class="tg-bjfb">Lazy (14)</td>
@@ -529,90 +529,7 @@ such that a negative metric indicates bias towards male association, a positive 
   </tr>
 </tbody>
 </table> -->
-
-<!-- <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-ytzs{background-color:#ffffff;border-color:inherit;font-family:Georgia, serif !important;;font-size:12px;text-align:left;
-  vertical-align:top}
-.tg .tg-pjpm{background-color:#ffffff;border-color:inherit;font-family:Georgia, serif !important;;font-size:12px;text-align:center;
-  vertical-align:top}
-.tg .tg-f8j0{border-color:#000000;font-family:Georgia, serif !important;;font-size:16px;font-weight:bold;text-align:center;
-  vertical-align:top}
-.tg .tg-bjfb{border-color:inherit;font-family:Georgia, serif !important;;font-size:12px;text-align:center;vertical-align:top}
-.tg .tg-t9u1{border-color:inherit;font-family:Georgia, serif !important;;font-size:12px;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-f8j0">Religion</th>
-    <th class="tg-f8j0">Most Common<br>Descriptive Words<br></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-pjpm">Atheism</td>
-    <td class="tg-ytzs">‘Theists’, ‘Cool’, ‘Agnostics’, ‘Mad’, ‘Theism’, ‘Defensive’, ‘Complaining’, ‘Correct’, ‘Arrogant’,<br>‘Characterized’</td>
-  </tr><style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-pjpm{background-color:#ffffff;border-color:inherit;font-family:Georgia, serif !important;;font-size:12px;text-align:center;
-  vertical-align:top}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-f8j0{border-color:#000000;font-family:Georgia, serif !important;;font-size:16px;font-weight:bold;text-align:center;
-  vertical-align:top}
-.tg .tg-bjfb{border-color:inherit;font-family:Georgia, serif !important;;font-size:12px;text-align:center;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-f8j0">Dataset</th>
-    <th class="tg-f8j0">Quantity<br>(Tokens)</th>
-    <th class="tg-1wig">Weight in<br>Training Matrix</th>
-    <th class="tg-1wig">Epochs elapsed when <br>training for 300B tokens</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-pjpm">Common Crawl</td>
-    <td class="tg-pjpm">410 billion</td>
-    <td class="tg-baqh">60%</td>
-    <td class="tg-baqh">0.44</td>
-  </tr>
-  <tr>
-    <td class="tg-pjpm">WebText2</td>
-    <td class="tg-pjpm">19 billion</td>
-    <td class="tg-baqh">22%</td>
-    <td class="tg-baqh">2.9</td>
-  </tr>
-  <tr>
-    <td class="tg-bjfb">Books1</td>
-    <td class="tg-bjfb">12 billion</td>
-    <td class="tg-baqh">8%</td>
-    <td class="tg-baqh">1.9</td>
-  </tr>
-  <tr>
-    <td class="tg-bjfb">Books2</td>
-    <td class="tg-bjfb">55 billion</td>
-    <td class="tg-baqh">8%</td>
-    <td class="tg-baqh">0.43</td>
-  </tr>
-  <tr>
-    <td class="tg-bjfb">Wikipedia</td>
-    <td class="tg-bjfb">3 billion</td>
-    <td class="tg-baqh">3%</td>
-    <td class="tg-baqh">3.4</td>
-  </tr>
-</tbody>
-</table>
-  <tr>
+  <!-- <tr>
     <td class="tg-pjpm">Buddhism</td>
     <td class="tg-ytzs">‘Myanmar’, ‘Vegetarians’, ‘Burma’, ‘Fellowship’, ‘Monk’, ‘Japanese’, ‘Reluctant’, ‘Wisdom’, ‘Enlightenment’, ‘Non-Violent’</td>
   </tr>
@@ -635,6 +552,52 @@ such that a negative metric indicates bias towards male association, a positive 
 </tbody>
 </table> -->
 
+<!-- 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-41ro{font-family:Georgia, serif !important;;font-size:15px;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-zd1e{font-family:Georgia, serif !important;;font-size:15px;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-zgao{font-family:Georgia, serif !important;;font-size:12px;text-align:center;vertical-align:top}
+.tg .tg-pmya{font-family:Georgia, serif !important;;font-size:12px;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-zd1e">Religion</th>
+    <th class="tg-41ro">Most Common Descriptive Words</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-zgao">Atheism</td>
+    <td class="tg-pmya">'Theists', 'Cool', 'Agnostics', 'Theism', 'Defensive', 'Complaining', 'Correct', 'Arrogant', 'Characterized'</td>
+  </tr>
+  <tr>
+    <td class="tg-zgao">Buddhism</td>
+    <td class="tg-pmya">‘Myanmar’, ‘Vegetarians’, ‘Burma’, ‘Fellowship’, ‘Monk’,&nbsp;&nbsp;‘Japanese’, ‘Reluctant’, ‘Wisdom’, ‘Enlightenment’, ‘Non-Violent’</td>
+  </tr>
+  <tr>
+    <td class="tg-zgao">Christianity</td>
+    <td class="tg-pmya">‘Attend’, ‘Ignorant’, ‘Response’, ‘Judgmental’, ‘Grace’, 'Execution’, ‘Egypt’, ‘Continue’, ‘Comments’, ‘Officially’</td>
+  </tr>
+  <tr>
+    <td class="tg-zgao">Hinduism</td>
+    <td class="tg-pmya">‘Caste’, ‘Cows’, ‘BJP’, ‘Kashmir’, ‘Modi’, ‘Celebrated’, ‘Dharma’, ‘Pakistani’, ‘Originated’, ‘Africa’</td>
+  </tr>
+  <tr>
+    <td class="tg-zgao">Islam</td>
+    <td class="tg-pmya">‘Pillars’, ‘Terrorism’, ‘Fasting’, ‘Sheikh’, ‘Non-Muslim’, Source’, ‘Charities’, ‘Levant’, ‘Allah’, ‘Prophet’</td>
+  </tr>
+  <tr>
+    <td class="tg-zgao">Judaism</td>
+    <td class="tg-pmya">‘Gentiles’, ‘Race’, ‘Semites’, ‘Whites’, ‘Blacks’, ‘Smartest’, ‘Racists’, ‘Arabs’, ‘Game’, ‘Russian’</td>
+  </tr>
+</tbody>
+</table> -->
 <!-- <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
