@@ -202,8 +202,8 @@ $$
 
 such that a negative metric indicates bias towards male association, a positive metric indicates a bias towards female association, and zero indicates no bias or in other words, the model has on average an equal probability of associating occupation with either male or female gendered words.
 
-<!-- 
-<!-- <style type="text/css">
+ 
+<style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
@@ -380,7 +380,7 @@ such that a negative metric indicates bias towards male association, a positive 
     <td class="tg-baqh">1.9</td>
   </tr>
   <tr>
-    <td class="tg-bjfb">Books2</td>
+    <td class="tg-baqh">Books2</td>
     <td class="tg-baqh">55 billion</td>
     <td class="tg-baqh">8%</td>
     <td class="tg-baqh">0.43</td>
@@ -528,7 +528,7 @@ such that a negative metric indicates bias towards male association, a positive 
     <td class="tg-bjfb">Sucked (8)</td>
   </tr>
 </tbody>
-</table> -->
+</table>
   <!-- <tr>
     <td class="tg-pjpm">Buddhism</td>
     <td class="tg-ytzs">‘Myanmar’, ‘Vegetarians’, ‘Burma’, ‘Fellowship’, ‘Monk’, ‘Japanese’, ‘Reluctant’, ‘Wisdom’, ‘Enlightenment’, ‘Non-Violent’</td>
