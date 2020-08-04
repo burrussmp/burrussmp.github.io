@@ -12,3 +12,6 @@ main:
 
   - title: "Resume/CV"
     url: /resume/
+
+  - title: "Notes"
+    url: /notes/

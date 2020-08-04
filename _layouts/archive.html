@@ -27,7 +27,9 @@ layout: default
       {%endif%}
       {%if page.type == 'publication' %}
         {% include _publications.html %}
-    {%endif%}
+      {%elsif page.type == 'notes' %}
+        {% include _notes.html %}
+      {%endif%}
     {%if page.type == 'about' %}
     {% include _about.html %}
 {%endif%}

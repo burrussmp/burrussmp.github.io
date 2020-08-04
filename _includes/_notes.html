@@ -1,0 +1,7 @@
+<h3 class="archive__subtitle">Recent Notes</h3>
+{% assign notes = site.notes | sort: 'date' | reverse  %}
+<div>
+{% for post in notes %}
+  {% include archive-single.html %}
+{% endfor %}
+</div>
