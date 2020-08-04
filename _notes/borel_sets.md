@@ -81,4 +81,4 @@ $$
   B(A) := \sigma (T)
 $$
 
-In other words, its the most efficient enumeration of the open sets of the topolical space that satisfy the three requirements of $\sigma$-algebra$. While $B(A)$ is obviously *very* large, it is more efficient than the power set $P(A)$.
+In other words, its the most efficient enumeration of the open sets of the topological space that satisfy the three requirements of $\sigma$-algebra. While $B(A)$ is obviously *very* large, it is more efficient than the power set $P(A)$.
