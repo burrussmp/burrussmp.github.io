@@ -1,9 +1,9 @@
 ---
 date: 2020-07-30
-title: "Borel $\\sigma$-Algebra"
+title: "Borel Sigma-Algebra"
 tagline: ""
 toc: true
-excerpt: ""
+excerpt: "Notes on power sets, open sets, and sigma algebras to explain borel sigma-algebras"
 ---
 
 The main use of $\sigma$-algebras are in the definition of *measures*.
