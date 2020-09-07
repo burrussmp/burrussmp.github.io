@@ -32,3 +32,9 @@
 | Opinion                 | /categories/opinions |
 | Other                   | /categories/other |
 
+## How to update resume
+
+1. Go to vanderbilt google drive
+2. Go to resume folder
+3. Replace "Burruss Resume.pdf"
+4. profit
