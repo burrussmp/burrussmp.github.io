@@ -6,6 +6,38 @@ tagline: ""
 toc: true
 excerpt: "Notes on Apache Spark (Python API)"
 ---
+
+## Basics
+
+The Spark engine uses a DAG (Directed Acyclic Graph) to keep track of transformations and to lazily execute actions. A transformation includes map, ReduceByKey, GroupByKey, JoinByKey, etc. and actions include Count, Take, and ForEach. Transformations just build the DAG and actions lead to the actual execution. If necessary, you can store intermediate transformations in memory using persistance feature of Spark.
+
+Shuffle processes can also occur but can be expensive due to storage costs (it might spill into disk and be slow). Spark can also perform dynamic allocation, allowing resources to be returned to pools.
+
+Spark is designed for parrallelized execution. Issues with parrallelism includes making sure that the code is properly split up and that skew doesn't occur (operation on a single core). As will be explained, behavior on local host may be different than production.  
+
+### Useful 
+
+**Transformations and Actions**
+
+1. map(func): Applies func to all elements in the RDD and returns a new RDD. This transforms aa element of length n to another element of length n.
+2. flatmap(func): Applies func to all elements in the RDD but can return more than one object. This tranforms an element of length n to one of length 0, 1, or more.
+3. filter(func): Keep elements that func returns true for.
+4. GroupBy(func): This is one aggregate function that allows you to group rows together based on some column value.
+5. take(#): Returns the first # elements in the RDD.
+
+For `groupBy()` it is common to follow with an `agg()` function. You can use the PySpark functionals to 
+**Manipulations of DataFrames (RDDS)**
+
+1. spark.read.load(filePath, format="csv",sep=",",inferSchema="true",header="true"): Load in RDD
+2. show(): Display all the data
+3. withColumnRenamed(curColName,newColName): Renames a column of the data frame
+4. select([col1,col2,...]): Returns RDD with the selected columns
+5. sort(col): Returns the RDD sorted along the specific (default ascending) to do descending import `from pyspark.sql import functions as F` and wrap F.desc(colname).
+6. withColumn(col,F.col(col).cast(IntegerType())): replace the column with a specifically cast type
+7. alias(name): Assign a column produced by the agg() command as a specific alias.
+
+**Aggregations and Join**
+1. join()
 ## Using Spark in Python
 
 ```python
@@ -92,10 +124,6 @@ A common example is with a counter that references a global variable. The global
 ```python
 rdd.take(NUMBER_TO_PRINT).foreach(println)
 ```
-
-### Working with key-value pairs
-
-
 
 ### Shared Variables
 
