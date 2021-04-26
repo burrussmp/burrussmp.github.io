@@ -1,0 +1,8 @@
+class_a: !MyClass
+  param1: 1
+  order: 1
+class_b: !MyClass
+    param1: !MyClass
+      param1: 2
+      order: 2
+    order: 3

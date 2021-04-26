@@ -1,0 +1,9 @@
+- url: https://www.imdb.com/title/tt0241527/
+  handler: !Func
+    module: my_scraper
+    name: handle_imdb
+- url: https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer s_Stone
+  provider: goodreads
+  handler: !Func
+    module: my_scraper
+    name: handle_goodreads

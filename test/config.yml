@@ -1,0 +1,12 @@
+name: MyBusiness
+locations:
+  - "Hawaii"
+  - "India"
+  - "Japan"
+employees:
+  - !Employee
+    name: Matthew Burruss
+    id: 1
+  - !Employee
+    name: John Doe
+    id: 2
