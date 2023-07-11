@@ -176,8 +176,8 @@ author:
   name             : "Matthew Burruss"
   avatar           : "/assets/images/profile.png"
   bio              : ""
-  location         : "Louisville, KY"
-  email            : 
+  location         : "Seattle, WA"
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
